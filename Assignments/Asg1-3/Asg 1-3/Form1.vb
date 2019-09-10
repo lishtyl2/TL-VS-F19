@@ -14,4 +14,8 @@
     Private Sub NoGutsButton_Click(sender As Object, e As EventArgs) Handles NoGutsButton.Click
         Me.Label2.Text = "No guts, no story."
     End Sub
+
+    Private Sub ConfuciusButton_Click(sender As Object, e As EventArgs) Handles ConfuciusButton.Click
+        Me.Label2.Text = "Man who laugh last, not get joke."
+    End Sub
 End Class

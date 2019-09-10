@@ -28,6 +28,7 @@ Partial Class Form1
         Me.EarlyBirdButton = New System.Windows.Forms.Button()
         Me.PennySavedButton = New System.Windows.Forms.Button()
         Me.NoGutsButton = New System.Windows.Forms.Button()
+        Me.ConfuciusButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ExitButton
@@ -58,36 +59,46 @@ Partial Class Form1
         '
         'EarlyBirdButton
         '
-        Me.EarlyBirdButton.Location = New System.Drawing.Point(448, 341)
+        Me.EarlyBirdButton.Location = New System.Drawing.Point(475, 341)
         Me.EarlyBirdButton.Name = "EarlyBirdButton"
-        Me.EarlyBirdButton.Size = New System.Drawing.Size(169, 62)
+        Me.EarlyBirdButton.Size = New System.Drawing.Size(142, 62)
         Me.EarlyBirdButton.TabIndex = 3
         Me.EarlyBirdButton.Text = "Early Bird"
         Me.EarlyBirdButton.UseVisualStyleBackColor = True
         '
         'PennySavedButton
         '
-        Me.PennySavedButton.Location = New System.Drawing.Point(277, 341)
+        Me.PennySavedButton.Location = New System.Drawing.Point(338, 341)
         Me.PennySavedButton.Name = "PennySavedButton"
-        Me.PennySavedButton.Size = New System.Drawing.Size(143, 62)
+        Me.PennySavedButton.Size = New System.Drawing.Size(116, 62)
         Me.PennySavedButton.TabIndex = 4
         Me.PennySavedButton.Text = "Penny Saved"
         Me.PennySavedButton.UseVisualStyleBackColor = True
         '
         'NoGutsButton
         '
-        Me.NoGutsButton.Location = New System.Drawing.Point(108, 341)
+        Me.NoGutsButton.Location = New System.Drawing.Point(194, 341)
         Me.NoGutsButton.Name = "NoGutsButton"
-        Me.NoGutsButton.Size = New System.Drawing.Size(152, 62)
+        Me.NoGutsButton.Size = New System.Drawing.Size(126, 62)
         Me.NoGutsButton.TabIndex = 5
         Me.NoGutsButton.Text = "No Guts"
         Me.NoGutsButton.UseVisualStyleBackColor = True
+        '
+        'ConfuciusButton
+        '
+        Me.ConfuciusButton.Location = New System.Drawing.Point(51, 341)
+        Me.ConfuciusButton.Name = "ConfuciusButton"
+        Me.ConfuciusButton.Size = New System.Drawing.Size(123, 62)
+        Me.ConfuciusButton.TabIndex = 6
+        Me.ConfuciusButton.Text = "Confucius Say"
+        Me.ConfuciusButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ConfuciusButton)
         Me.Controls.Add(Me.NoGutsButton)
         Me.Controls.Add(Me.PennySavedButton)
         Me.Controls.Add(Me.EarlyBirdButton)
@@ -107,4 +118,5 @@ Partial Class Form1
     Friend WithEvents EarlyBirdButton As Button
     Friend WithEvents PennySavedButton As Button
     Friend WithEvents NoGutsButton As Button
+    Friend WithEvents ConfuciusButton As Button
 End Class
