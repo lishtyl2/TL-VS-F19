@@ -50,10 +50,10 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
+        Me.Label2.AutoEllipsis = True
         Me.Label2.Location = New System.Drawing.Point(251, 129)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 17)
+        Me.Label2.Size = New System.Drawing.Size(134, 96)
         Me.Label2.TabIndex = 2
         '
         'EarlyBirdButton
