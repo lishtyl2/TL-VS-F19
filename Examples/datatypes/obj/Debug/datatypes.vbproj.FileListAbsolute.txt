@@ -1,0 +1,12 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\bin\Debug\datatypes.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\bin\Debug\datatypes.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\bin\Debug\datatypes.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\bin\Debug\datatypes.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.vbproj.CoreCompileInputs.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\datatypes\obj\Debug\datatypes.Form1.resources

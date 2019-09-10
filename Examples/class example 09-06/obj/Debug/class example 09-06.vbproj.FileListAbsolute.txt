@@ -1,0 +1,12 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\bin\Debug\class example 09-06.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\bin\Debug\class example 09-06.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\bin\Debug\class example 09-06.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\bin\Debug\class example 09-06.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class example 09-06.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class_example_09_06.Friday.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class_example_09_06.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class example 09-06.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class example 09-06.vbproj.CoreCompileInputs.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class example 09-06.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class example 09-06.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\class example 09-06\obj\Debug\class example 09-06.pdb

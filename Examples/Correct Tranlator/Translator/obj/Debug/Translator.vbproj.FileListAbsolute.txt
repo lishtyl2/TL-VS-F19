@@ -1,0 +1,12 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.Form1.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.vbproj.CoreCompileInputs.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\bin\Debug\Translator.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\bin\Debug\Translator.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\bin\Debug\Translator.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\bin\Debug\Translator.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Correct Tranlator\Translator\obj\Debug\Translator.pdb

@@ -1,0 +1,5 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Translator\obj\Debug\Translator.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Translator\obj\Debug\Translator.Form1.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Translator\obj\Debug\Translator.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Translator\obj\Debug\Translator.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\Translator\obj\Debug\Translator.vbproj.CoreCompileInputs.cache
