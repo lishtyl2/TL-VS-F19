@@ -3,10 +3,10 @@ C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\bi
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\bin\Debug\Asg 1-3.pdb
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\bin\Debug\Asg 1-3.xml
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg 1-3.vbprojAssemblyReference.cache
-C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg_1_3.Form1.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg_1_3.Resources.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg 1-3.vbproj.GenerateResource.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg 1-3.vbproj.CoreCompileInputs.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg 1-3.exe
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg 1-3.xml
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg 1-3.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-3\Asg 1-3\obj\Debug\Asg_1_3.WordsOfWisdom.resources

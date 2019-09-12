@@ -1,4 +1,10 @@
-﻿Public Class Form1
+﻿'Tyler Lish
+'RCET0265
+'This is a prime example of where to get that wisdom.
+'Asg1-3
+'https://github.com/lishtyl2/TL-VS-F19/tree/master/Assignments/Asg1-3/Asg%201-3
+
+Public Class WordsOfWisdom
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
     End Sub
