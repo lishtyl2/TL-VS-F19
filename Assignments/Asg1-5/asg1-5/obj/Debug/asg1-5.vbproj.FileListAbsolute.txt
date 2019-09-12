@@ -3,10 +3,10 @@ C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\bin
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\bin\Debug\asg1-5.pdb
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\bin\Debug\asg1-5.xml
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1-5.vbprojAssemblyReference.cache
-C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1_5.Form1.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1_5.Resources.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1-5.vbproj.GenerateResource.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1-5.vbproj.CoreCompileInputs.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1-5.exe
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1-5.xml
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1-5.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg1-5\asg1-5\obj\Debug\asg1_5.TodaysSpecialMenu.resources

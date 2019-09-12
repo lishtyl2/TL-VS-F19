@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class TodaysSpecialMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,13 +22,13 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TodaysSpecialMenu))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ExitButton = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.SoupButton = New System.Windows.Forms.Button()
+        Me.ChefsButton = New System.Windows.Forms.Button()
+        Me.FishButton = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -62,45 +62,45 @@ Partial Class Form1
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
-        'Button2
+        'SoupButton
         '
-        Me.Button2.Location = New System.Drawing.Point(673, 487)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(136, 49)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Soup Du Jour"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.SoupButton.Location = New System.Drawing.Point(673, 487)
+        Me.SoupButton.Name = "SoupButton"
+        Me.SoupButton.Size = New System.Drawing.Size(136, 49)
+        Me.SoupButton.TabIndex = 3
+        Me.SoupButton.Text = "Soup Du Jour"
+        Me.SoupButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'ChefsButton
         '
-        Me.Button3.Location = New System.Drawing.Point(527, 487)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(140, 49)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "Chef's Special"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.ChefsButton.Location = New System.Drawing.Point(527, 487)
+        Me.ChefsButton.Name = "ChefsButton"
+        Me.ChefsButton.Size = New System.Drawing.Size(140, 49)
+        Me.ChefsButton.TabIndex = 4
+        Me.ChefsButton.Text = "Chef's Special"
+        Me.ChefsButton.UseVisualStyleBackColor = True
         '
-        'Button4
+        'FishButton
         '
-        Me.Button4.Location = New System.Drawing.Point(369, 487)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(152, 49)
-        Me.Button4.TabIndex = 5
-        Me.Button4.Text = "Daily Fish"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.FishButton.Location = New System.Drawing.Point(369, 487)
+        Me.FishButton.Name = "FishButton"
+        Me.FishButton.Size = New System.Drawing.Size(152, 49)
+        Me.FishButton.TabIndex = 5
+        Me.FishButton.Text = "Daily Fish"
+        Me.FishButton.UseVisualStyleBackColor = True
         '
-        'Form1
+        'TodaysSpecialMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(971, 538)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.FishButton)
+        Me.Controls.Add(Me.ChefsButton)
+        Me.Controls.Add(Me.SoupButton)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Name = "TodaysSpecialMenu"
         Me.Text = "Baked Goods"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -110,7 +110,7 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ExitButton As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents SoupButton As Button
+    Friend WithEvents ChefsButton As Button
+    Friend WithEvents FishButton As Button
 End Class
