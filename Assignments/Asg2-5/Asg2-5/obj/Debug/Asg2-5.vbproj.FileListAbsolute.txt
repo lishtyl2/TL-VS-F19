@@ -1,0 +1,12 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\bin\Debug\Asg2-5.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\bin\Debug\Asg2-5.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\bin\Debug\Asg2-5.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\bin\Debug\Asg2-5.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2-5.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2_5.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2-5.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2-5.vbproj.CoreCompileInputs.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2-5.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2-5.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2-5.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg2-5\Asg2-5\obj\Debug\Asg2_5.MailingLabel.resources
