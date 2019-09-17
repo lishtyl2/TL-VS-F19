@@ -22,6 +22,7 @@ Partial Class MailingLabel
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.StateBox = New System.Windows.Forms.TextBox()
         Me.ZipCodeBox = New System.Windows.Forms.MaskedTextBox()
@@ -39,6 +40,7 @@ Partial Class MailingLabel
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.GenerateButton = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,6 +71,7 @@ Partial Class MailingLabel
         Me.StateBox.Name = "StateBox"
         Me.StateBox.Size = New System.Drawing.Size(48, 22)
         Me.StateBox.TabIndex = 8
+        Me.ToolTip1.SetToolTip(Me.StateBox, "Very nice, what about the state?")
         '
         'ZipCodeBox
         '
@@ -77,6 +80,7 @@ Partial Class MailingLabel
         Me.ZipCodeBox.Name = "ZipCodeBox"
         Me.ZipCodeBox.Size = New System.Drawing.Size(48, 22)
         Me.ZipCodeBox.TabIndex = 9
+        Me.ToolTip1.SetToolTip(Me.ZipCodeBox, "Now, I am going to need the zip code. ")
         '
         'ZipCodeLabel
         '
@@ -86,6 +90,7 @@ Partial Class MailingLabel
         Me.ZipCodeLabel.Size = New System.Drawing.Size(65, 17)
         Me.ZipCodeLabel.TabIndex = 10
         Me.ZipCodeLabel.Text = "Zip Code"
+        Me.ToolTip1.SetToolTip(Me.ZipCodeLabel, "Now, I am going to need the zip code. ")
         '
         'StateLabel
         '
@@ -95,6 +100,7 @@ Partial Class MailingLabel
         Me.StateLabel.Size = New System.Drawing.Size(41, 17)
         Me.StateLabel.TabIndex = 8
         Me.StateLabel.Text = "State"
+        Me.ToolTip1.SetToolTip(Me.StateLabel, "Very nice, what about the state?")
         '
         'CityBox
         '
@@ -102,6 +108,7 @@ Partial Class MailingLabel
         Me.CityBox.Name = "CityBox"
         Me.CityBox.Size = New System.Drawing.Size(223, 22)
         Me.CityBox.TabIndex = 7
+        Me.ToolTip1.SetToolTip(Me.CityBox, "And what city is that in? ")
         '
         'CityLabel
         '
@@ -111,6 +118,7 @@ Partial Class MailingLabel
         Me.CityLabel.Size = New System.Drawing.Size(31, 17)
         Me.CityLabel.TabIndex = 6
         Me.CityLabel.Text = "City"
+        Me.ToolTip1.SetToolTip(Me.CityLabel, "And what city is that in? ")
         '
         'AddressLabel
         '
@@ -120,6 +128,7 @@ Partial Class MailingLabel
         Me.AddressLabel.Size = New System.Drawing.Size(102, 17)
         Me.AddressLabel.TabIndex = 5
         Me.AddressLabel.Text = "Street Address"
+        Me.ToolTip1.SetToolTip(Me.AddressLabel, "I want to know everything about you. Enter your address here.")
         '
         'AddressBox
         '
@@ -127,6 +136,7 @@ Partial Class MailingLabel
         Me.AddressBox.Name = "AddressBox"
         Me.AddressBox.Size = New System.Drawing.Size(223, 22)
         Me.AddressBox.TabIndex = 4
+        Me.ToolTip1.SetToolTip(Me.AddressBox, "I want to know everything about you. Enter your address here.")
         '
         'LastNameLabel
         '
@@ -136,6 +146,7 @@ Partial Class MailingLabel
         Me.LastNameLabel.Size = New System.Drawing.Size(76, 17)
         Me.LastNameLabel.TabIndex = 3
         Me.LastNameLabel.Text = "Last Name"
+        Me.ToolTip1.SetToolTip(Me.LastNameLabel, "This is where your last name goes. ")
         '
         'LastNameBox
         '
@@ -143,6 +154,7 @@ Partial Class MailingLabel
         Me.LastNameBox.Name = "LastNameBox"
         Me.LastNameBox.Size = New System.Drawing.Size(223, 22)
         Me.LastNameBox.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.LastNameBox, "This is where your last name goes. ")
         '
         'FirstNameLabel
         '
@@ -152,6 +164,7 @@ Partial Class MailingLabel
         Me.FirstNameLabel.Size = New System.Drawing.Size(76, 17)
         Me.FirstNameLabel.TabIndex = 1
         Me.FirstNameLabel.Text = "First Name"
+        Me.ToolTip1.SetToolTip(Me.FirstNameLabel, "Enter your first name here.")
         '
         'FirstNameBox
         '
@@ -159,6 +172,7 @@ Partial Class MailingLabel
         Me.FirstNameBox.Name = "FirstNameBox"
         Me.FirstNameBox.Size = New System.Drawing.Size(223, 22)
         Me.FirstNameBox.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.FirstNameBox, "Enter your first name here.")
         '
         'DisplayLabel
         '
@@ -175,6 +189,7 @@ Partial Class MailingLabel
         Me.ExitButton.Size = New System.Drawing.Size(147, 60)
         Me.ExitButton.TabIndex = 12
         Me.ExitButton.Text = "E&xit"
+        Me.ToolTip1.SetToolTip(Me.ExitButton, "Click here to exit the application")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'ClearButton
@@ -184,6 +199,7 @@ Partial Class MailingLabel
         Me.ClearButton.Size = New System.Drawing.Size(154, 59)
         Me.ClearButton.TabIndex = 11
         Me.ClearButton.Text = "&Clear"
+        Me.ToolTip1.SetToolTip(Me.ClearButton, "Click here to clear the current mailing label")
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'GenerateButton
@@ -193,6 +209,7 @@ Partial Class MailingLabel
         Me.GenerateButton.Size = New System.Drawing.Size(121, 58)
         Me.GenerateButton.TabIndex = 10
         Me.GenerateButton.Text = "&Generate"
+        Me.ToolTip1.SetToolTip(Me.GenerateButton, "Click here to generate the mailing label")
         Me.GenerateButton.UseVisualStyleBackColor = True
         '
         'MailingLabel
@@ -230,4 +247,5 @@ Partial Class MailingLabel
     Friend WithEvents ClearButton As Button
     Friend WithEvents GenerateButton As Button
     Friend WithEvents StateBox As TextBox
+    Friend WithEvents ToolTip1 As ToolTip
 End Class
