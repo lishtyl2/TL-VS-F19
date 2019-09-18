@@ -6,7 +6,7 @@ Public Class ExampleForm
         Dim firstNumber As Integer
         Dim secondNumber As Integer
         Dim errorMessage As String
-
+        LoadTestData() 'load sample data, remove for production
 
         'validate user input in reverse tab order. first tab with an error will be left selected. 
         Try
@@ -39,5 +39,32 @@ Public Class ExampleForm
 
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
+    End Sub
+
+    Private Sub LoadTestData()
+        Dim Sample As Integer
+        For Sample = 1 To 4 Step 1
+            Select Case Sample
+                Case = 1
+                    TextBox1.Text = "5"
+                    TextBox2.Text = "6"
+                    Exit For
+                Case = 2
+                    TextBox1.Text = "5"
+                    TextBox2.Text = "Bad"
+                    Exit For
+                Case = 3
+                    TextBox1.Text = "Bad"
+                    TextBox2.Text = "6"
+                    Exit For
+                Case = 4
+                    TextBox1.Text = "Bad"
+                    TextBox2.Text = "Bad"
+                    Exit For
+                Case Else
+                    'do stuff
+            End Select
+        Next Sample
+
     End Sub
 End Class
