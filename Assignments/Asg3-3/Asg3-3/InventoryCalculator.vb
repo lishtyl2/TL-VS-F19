@@ -2,7 +2,7 @@
 'RCET0265
 'Asg3-3
 'Inventory Calculator
-'
+'https://github.com/lishtyl2/TL-VS-F19/tree/master/Assignments
 Option Strict On
 Option Explicit On
 Public Class InventoryCalculator
