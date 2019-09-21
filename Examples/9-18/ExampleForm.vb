@@ -6,7 +6,8 @@ Public Class ExampleForm
         Dim firstNumber As Integer
         Dim secondNumber As Integer
         Dim errorMessage As String
-        LoadTestData() 'load sample data, remove for production
+        Dim result As Integer
+        'LoadTestData() 'load sample data, remove for production
 
         'validate user input in reverse tab order. first tab with an error will be left selected. 
         Try
@@ -33,6 +34,9 @@ Public Class ExampleForm
 
         If errorMessage <> "" Then
             MessageBox.Show(errorMessage, "We have a problem")
+        Else
+            result = firstNumber + secondNumber
+            TextBox3.Text = result.ToString("C")
         End If
 
     End Sub
@@ -42,7 +46,12 @@ Public Class ExampleForm
     End Sub
 
     Private Sub LoadTestData()
-        Dim Sample As Integer
+        Static Sample As Integer
+
+        Sample += 1
+
+        Console.WriteLine(Sample)
+
         For Sample = 1 To 4 Step 1
             Select Case Sample
                 Case = 1
@@ -62,9 +71,15 @@ Public Class ExampleForm
                     TextBox2.Text = "Bad"
                     Exit For
                 Case Else
-                    'do stuff
+                    'Do stuff
             End Select
         Next Sample
+        If Sample >= 4 Then
+            Sample = 1
+        Else
+            Sample += 1
+        End If
+
 
     End Sub
 End Class
