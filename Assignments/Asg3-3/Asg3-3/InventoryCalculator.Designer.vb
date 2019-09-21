@@ -22,21 +22,23 @@ Partial Class InventoryCalculator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.UserInputSide = New System.Windows.Forms.GroupBox()
-        Me.BeginningTextBox = New System.Windows.Forms.TextBox()
-        Me.EndingTextBox = New System.Windows.Forms.TextBox()
-        Me.CostTextBox = New System.Windows.Forms.TextBox()
-        Me.BeginningLabel = New System.Windows.Forms.Label()
-        Me.EndingLabel = New System.Windows.Forms.Label()
         Me.CostLabel = New System.Windows.Forms.Label()
+        Me.EndingLabel = New System.Windows.Forms.Label()
+        Me.BeginningLabel = New System.Windows.Forms.Label()
+        Me.CostTextBox = New System.Windows.Forms.TextBox()
+        Me.EndingTextBox = New System.Windows.Forms.TextBox()
+        Me.BeginningTextBox = New System.Windows.Forms.TextBox()
         Me.OutputGroupBox = New System.Windows.Forms.GroupBox()
-        Me.AverageTextBox = New System.Windows.Forms.TextBox()
-        Me.TurnoverTextBox = New System.Windows.Forms.TextBox()
-        Me.TurnoverLabel = New System.Windows.Forms.Label()
         Me.AverageLabel = New System.Windows.Forms.Label()
+        Me.TurnoverLabel = New System.Windows.Forms.Label()
+        Me.TurnoverTextBox = New System.Windows.Forms.TextBox()
+        Me.AverageTextBox = New System.Windows.Forms.TextBox()
         Me.CalculateButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.UserInputSide.SuspendLayout()
         Me.OutputGroupBox.SuspendLayout()
         Me.SuspendLayout()
@@ -55,35 +57,15 @@ Partial Class InventoryCalculator
         Me.UserInputSide.TabIndex = 0
         Me.UserInputSide.TabStop = False
         '
-        'BeginningTextBox
+        'CostLabel
         '
-        Me.BeginningTextBox.Location = New System.Drawing.Point(28, 45)
-        Me.BeginningTextBox.Name = "BeginningTextBox"
-        Me.BeginningTextBox.Size = New System.Drawing.Size(249, 22)
-        Me.BeginningTextBox.TabIndex = 0
-        '
-        'EndingTextBox
-        '
-        Me.EndingTextBox.Location = New System.Drawing.Point(28, 135)
-        Me.EndingTextBox.Name = "EndingTextBox"
-        Me.EndingTextBox.Size = New System.Drawing.Size(249, 22)
-        Me.EndingTextBox.TabIndex = 1
-        '
-        'CostTextBox
-        '
-        Me.CostTextBox.Location = New System.Drawing.Point(28, 225)
-        Me.CostTextBox.Name = "CostTextBox"
-        Me.CostTextBox.Size = New System.Drawing.Size(249, 22)
-        Me.CostTextBox.TabIndex = 2
-        '
-        'BeginningLabel
-        '
-        Me.BeginningLabel.AutoSize = True
-        Me.BeginningLabel.Location = New System.Drawing.Point(28, 22)
-        Me.BeginningLabel.Name = "BeginningLabel"
-        Me.BeginningLabel.Size = New System.Drawing.Size(133, 17)
-        Me.BeginningLabel.TabIndex = 3
-        Me.BeginningLabel.Text = "Beginning Inventory"
+        Me.CostLabel.AutoSize = True
+        Me.CostLabel.Location = New System.Drawing.Point(28, 202)
+        Me.CostLabel.Name = "CostLabel"
+        Me.CostLabel.Size = New System.Drawing.Size(130, 17)
+        Me.CostLabel.TabIndex = 5
+        Me.CostLabel.Text = "Cost of Goods Sold"
+        Me.ToolTip1.SetToolTip(Me.CostLabel, "How much are you selling your stuff for?")
         '
         'EndingLabel
         '
@@ -93,15 +75,41 @@ Partial Class InventoryCalculator
         Me.EndingLabel.Size = New System.Drawing.Size(114, 17)
         Me.EndingLabel.TabIndex = 4
         Me.EndingLabel.Text = "Ending Inventory"
+        Me.ToolTip1.SetToolTip(Me.EndingLabel, "Insert how many you had at the end of the day/month/year")
         '
-        'CostLabel
+        'BeginningLabel
         '
-        Me.CostLabel.AutoSize = True
-        Me.CostLabel.Location = New System.Drawing.Point(28, 202)
-        Me.CostLabel.Name = "CostLabel"
-        Me.CostLabel.Size = New System.Drawing.Size(130, 17)
-        Me.CostLabel.TabIndex = 5
-        Me.CostLabel.Text = "Cost of Goods Sold"
+        Me.BeginningLabel.AutoSize = True
+        Me.BeginningLabel.Location = New System.Drawing.Point(28, 22)
+        Me.BeginningLabel.Name = "BeginningLabel"
+        Me.BeginningLabel.Size = New System.Drawing.Size(133, 17)
+        Me.BeginningLabel.TabIndex = 3
+        Me.BeginningLabel.Text = "Beginning Inventory"
+        Me.ToolTip1.SetToolTip(Me.BeginningLabel, "Insert how many you had to begin with. ")
+        '
+        'CostTextBox
+        '
+        Me.CostTextBox.Location = New System.Drawing.Point(28, 225)
+        Me.CostTextBox.Name = "CostTextBox"
+        Me.CostTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.CostTextBox.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.CostTextBox, "How much are you selling your stuff for?")
+        '
+        'EndingTextBox
+        '
+        Me.EndingTextBox.Location = New System.Drawing.Point(28, 135)
+        Me.EndingTextBox.Name = "EndingTextBox"
+        Me.EndingTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.EndingTextBox.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.EndingTextBox, "Insert how many you had at the end of the day/month/year")
+        '
+        'BeginningTextBox
+        '
+        Me.BeginningTextBox.Location = New System.Drawing.Point(28, 45)
+        Me.BeginningTextBox.Name = "BeginningTextBox"
+        Me.BeginningTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.BeginningTextBox.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.BeginningTextBox, "Insert how many you had to begin with. ")
         '
         'OutputGroupBox
         '
@@ -115,19 +123,15 @@ Partial Class InventoryCalculator
         Me.OutputGroupBox.TabIndex = 1
         Me.OutputGroupBox.TabStop = False
         '
-        'AverageTextBox
+        'AverageLabel
         '
-        Me.AverageTextBox.Location = New System.Drawing.Point(36, 44)
-        Me.AverageTextBox.Name = "AverageTextBox"
-        Me.AverageTextBox.Size = New System.Drawing.Size(211, 22)
-        Me.AverageTextBox.TabIndex = 0
-        '
-        'TurnoverTextBox
-        '
-        Me.TurnoverTextBox.Location = New System.Drawing.Point(36, 134)
-        Me.TurnoverTextBox.Name = "TurnoverTextBox"
-        Me.TurnoverTextBox.Size = New System.Drawing.Size(211, 22)
-        Me.TurnoverTextBox.TabIndex = 1
+        Me.AverageLabel.AutoSize = True
+        Me.AverageLabel.Location = New System.Drawing.Point(36, 21)
+        Me.AverageLabel.Name = "AverageLabel"
+        Me.AverageLabel.Size = New System.Drawing.Size(123, 17)
+        Me.AverageLabel.TabIndex = 3
+        Me.AverageLabel.Text = "Average Inventory"
+        Me.ToolTip1.SetToolTip(Me.AverageLabel, "Don't type anything here. It will populate for you!")
         '
         'TurnoverLabel
         '
@@ -137,15 +141,23 @@ Partial Class InventoryCalculator
         Me.TurnoverLabel.Size = New System.Drawing.Size(66, 17)
         Me.TurnoverLabel.TabIndex = 2
         Me.TurnoverLabel.Text = "Turnover"
+        Me.ToolTip1.SetToolTip(Me.TurnoverLabel, "Don't type anything here. It will populate for you!")
         '
-        'AverageLabel
+        'TurnoverTextBox
         '
-        Me.AverageLabel.AutoSize = True
-        Me.AverageLabel.Location = New System.Drawing.Point(36, 21)
-        Me.AverageLabel.Name = "AverageLabel"
-        Me.AverageLabel.Size = New System.Drawing.Size(123, 17)
-        Me.AverageLabel.TabIndex = 3
-        Me.AverageLabel.Text = "Average Inventory"
+        Me.TurnoverTextBox.Location = New System.Drawing.Point(36, 134)
+        Me.TurnoverTextBox.Name = "TurnoverTextBox"
+        Me.TurnoverTextBox.Size = New System.Drawing.Size(211, 22)
+        Me.TurnoverTextBox.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.TurnoverTextBox, "Don't type anything here. It will populate for you!")
+        '
+        'AverageTextBox
+        '
+        Me.AverageTextBox.Location = New System.Drawing.Point(36, 44)
+        Me.AverageTextBox.Name = "AverageTextBox"
+        Me.AverageTextBox.Size = New System.Drawing.Size(211, 22)
+        Me.AverageTextBox.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.AverageTextBox, "Don't type anything here. It will populate for you!")
         '
         'CalculateButton
         '
@@ -154,6 +166,7 @@ Partial Class InventoryCalculator
         Me.CalculateButton.Size = New System.Drawing.Size(308, 67)
         Me.CalculateButton.TabIndex = 2
         Me.CalculateButton.Text = "Calcula&te"
+        Me.ToolTip1.SetToolTip(Me.CalculateButton, "Click here to crunch those numbers.")
         Me.CalculateButton.UseVisualStyleBackColor = True
         '
         'ClearButton
@@ -163,6 +176,7 @@ Partial Class InventoryCalculator
         Me.ClearButton.Size = New System.Drawing.Size(122, 67)
         Me.ClearButton.TabIndex = 3
         Me.ClearButton.Text = "&Clear"
+        Me.ToolTip1.SetToolTip(Me.ClearButton, "Everything is wrong, lets start over. ")
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'ExitButton
@@ -172,6 +186,7 @@ Partial Class InventoryCalculator
         Me.ExitButton.Size = New System.Drawing.Size(122, 67)
         Me.ExitButton.TabIndex = 4
         Me.ExitButton.Text = "E&xit"
+        Me.ToolTip1.SetToolTip(Me.ExitButton, "Just let me out of here. ")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'InventoryCalculator
@@ -209,4 +224,5 @@ Partial Class InventoryCalculator
     Friend WithEvents CalculateButton As Button
     Friend WithEvents ClearButton As Button
     Friend WithEvents ExitButton As Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

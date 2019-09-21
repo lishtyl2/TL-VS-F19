@@ -42,12 +42,12 @@ Public Class InventoryCalculator
         If errorMessage <> "" Then
             MessageBox.Show(errorMessage, "Houston, We Have A Problem.")
         Else
+            BeginningInventory = Integer.Parse(BeginningTextBox.Text)
+            EndingInventory = Integer.Parse(EndingTextBox.Text)
+            CostOfGoodsSold = Integer.Parse(CostTextBox.Text)
 
         End If
 
-        BeginningInventory = Integer.Parse(BeginningTextBox.Text)
-        EndingInventory = Integer.Parse(EndingTextBox.Text)
-        CostOfGoodsSold = Integer.Parse(CostTextBox.Text)
 
         AverageInventory = (BeginningInventory + EndingInventory) / 2
         Turnover = CostOfGoodsSold / AverageInventory
