@@ -90,7 +90,7 @@
         Dim FirstRandomNumber As Single
         Dim SecondRandomNumber As Single
 
-        'Fix this random number crap. 
+
         FirstRandomNumber = CInt(Int((6 * Rnd()) + 1))
         SecondRandomNumber = CInt(Int((6 * Rnd()) + 1))
 
@@ -100,7 +100,7 @@
             Case SubtractButton.Checked
                 Console.WriteLine(FirstRandomNumber - SecondRandomNumber)
             Case Else
-                Console.WriteLine("There is no math to do. ")
+                MessageBox.Show("There is no math to do. ", "Please make an option")
         End Select
     End Sub
 End Class
