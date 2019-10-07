@@ -20,7 +20,7 @@ Public Class MathContest
     End Sub
 
     Sub ClearAllFields()
-        NameTextBox.Text = ""
+        NameTextBox.Clear()
         GradeComboBox.Text = ""
         AgeComboBox.Text = ""
         FirstNumberTextBox.Text = ""

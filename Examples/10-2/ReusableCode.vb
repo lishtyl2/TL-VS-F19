@@ -33,7 +33,34 @@ Public Class ReusableCode 'resuable reset
         HasValidInteger(ThirdTextbox)
 
     End Sub
+    'Private Function GetAllTextBoxes() As List(Of Control)
+    '    'Temp storage for the control object. 
+    '    Dim ctrl As Control
+    '    'list of all textbox control objects found
+    '    Dim listOfTextBoxes As New List(Of Control)
+    '    'created this as a loop counter to avoid being stuck
+    '    'in an infinate loop during debugging. 
+    '    Dim loopCounter As Integer
+    '    loopCounter = 0
 
+    '    ctrl = UserInput.GetNextControl(ctrl, False)
+    '    Do Until ctrl Is Nothing Or loopCounter >= 100
+    '        loopCounter += 1
+
+    '        If TypeName(ctrl) = "TextBox" Then
+    '            Console.WriteLine(ctrl.Name & " is a " & TypeName(ctrl) & " and is a match!")
+    '            listOfTextBoxes.Add(ctrl)
+
+    '        End If
+    '        ctrl = UserInput.GetNextControl(ctrl, False)
+
+    '    Loop
+
+    '    Return listOfTextBoxes
+
+
+
+    'End Function
     Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
         SetToDefaults()
     End Sub
@@ -51,5 +78,10 @@ Public Class ReusableCode 'resuable reset
         HasValidInteger(FirstTextbox)
         HasValidInteger(SecondTextbox)
         HasValidInteger(ThirdTextbox)
+        'GetAllTextBoxes()
+    End Sub
+
+    Private Sub GoToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles GoToolStripMenuItem1.Click
+
     End Sub
 End Class
