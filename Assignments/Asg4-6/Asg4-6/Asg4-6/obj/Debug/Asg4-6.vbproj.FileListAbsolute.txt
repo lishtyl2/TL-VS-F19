@@ -29,7 +29,6 @@ C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4_6.Resources.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4_6.rentalForm.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4-6.vbproj.GenerateResource.cache
-C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4-6.vbproj.CoreCompileInputs.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4-6.exe
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4-6.xml
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-6\Asg4-6\Asg4-6\obj\Debug\Asg4-6.pdb

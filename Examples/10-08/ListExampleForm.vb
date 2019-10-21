@@ -63,6 +63,58 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        FormatExample()
+        Console.WriteLine(invoiceHeader())
+        Console.WriteLine(columnHeaders("Description", "Unit", "Rate", "SubTotal"))
+        'FormatExample()
+    End Sub
+
+    '80 character limit. 
+    Private Function invoiceHeader() As String
+
+        Return "********************************************************************************" & vbNewLine &
+                       "*                                Invoice                                       *" & vbNewLine &
+                       "********************************************************************************"
+    End Function
+
+    Private Function columnHeaders(firstColumn As String, secondColumn As String, thirdColumn As String, fourthColumn As String) As String
+        'Description, unit cost, rate, subtotal.
+        Dim columnWidth As Integer
+        columnWidth = 20
+        firstColumn = "* " & firstColumn
+        secondColumn = "| " & secondColumn
+        thirdColumn = "| " & thirdColumn
+        fourthColumn = "|          " & fourthColumn
+        Return firstColumn.PadRight(columnWidth) & secondColumn.PadRight(columnWidth) &
+            thirdColumn.PadRight(columnWidth) & fourthColumn.PadLeft(columnWidth - 1) & "*"
+
+    End Function
+
+    Private Sub PrintPreviewMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PrintPreviewDialog.Click
+        OpenFileDialog1.ShowDialog()
+        PrintPreviewDialog.ShowDialog()
+        Dim myDoc As Printing.PrintDocument
+
+
+
+
+    End Sub
+
+    Private Sub PrintPreview_Click(sender As Object, e As EventArgs) Handles PrintPreview.Click
+        PrintPreviewDialog.ShowDialog()
+
+    End Sub
+
+    Private Sub PrintMenu_Click(sender As Object, e As EventArgs) Handles PrintMenu.Click
+
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        Me.Close()
+
+    End Sub
+
+    Private Sub FileToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles FileToolStripMenuItem1.Click
+        OpenFileDialog1.ShowDialog()
+        Console.WriteLine(OpenFileDialog1.FileName)
     End Sub
 End Class
