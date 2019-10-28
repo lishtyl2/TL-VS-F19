@@ -1,0 +1,10 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\bin\Debug\10-23.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\bin\Debug\10-23.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\bin\Debug\10-23.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\bin\Debug\10-23.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\obj\Debug\10-23.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\obj\Debug\_10_23.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\obj\Debug\10-23.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\obj\Debug\10-23.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\obj\Debug\10-23.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\10-23\obj\Debug\10-23.pdb
