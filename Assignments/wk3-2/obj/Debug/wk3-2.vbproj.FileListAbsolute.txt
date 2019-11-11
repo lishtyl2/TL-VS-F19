@@ -1,0 +1,11 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\bin\Debug\wk3-2.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\bin\Debug\wk3-2.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\bin\Debug\wk3-2.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\bin\Debug\wk3-2.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3-2.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3_2.DiceMachine.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3_2.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3-2.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3-2.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3-2.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-2\obj\Debug\wk3-2.pdb

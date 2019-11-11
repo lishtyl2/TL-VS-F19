@@ -1,0 +1,11 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\bin\Debug\wk3-1.exe.config
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\bin\Debug\wk3-1.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\bin\Debug\wk3-1.pdb
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\bin\Debug\wk3-1.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3-1.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3_1.Form1.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3_1.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3-1.vbproj.GenerateResource.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3-1.exe
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3-1.xml
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\wk3-1\obj\Debug\wk3-1.pdb
