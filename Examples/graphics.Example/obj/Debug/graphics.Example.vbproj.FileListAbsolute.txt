@@ -1,0 +1,4 @@
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\graphics.Example\obj\Debug\graphics.Example.vbprojAssemblyReference.cache
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\graphics.Example\obj\Debug\graphics.Example.Form1.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\graphics.Example\obj\Debug\graphics.Example.Resources.resources
+C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Examples\graphics.Example\obj\Debug\graphics.Example.vbproj.GenerateResource.cache
