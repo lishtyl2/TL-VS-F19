@@ -1,4 +1,8 @@
-﻿
+﻿'Tyler Lish
+'RCET0265
+'Etch A Sketch
+'ASG 13 - 1
+https://github.com/lishtyl2/TL-VS-F19/tree/master/Assignments
 
 Public Class GraphicsForm
 
@@ -44,26 +48,23 @@ Public Class GraphicsForm
         Dim g As Graphics
         Dim graticulPen As New Pen(Color.ForestGreen, 3)
         Dim sinWavePen As New Pen(Color.OrangeRed, 2)
-        Dim cosWavePen As New Pen(Color.Yellow, 2)
-        Dim T As Double
-        Dim L As Double
+        Dim cosWavePen As New Pen(Color.MediumPurple, 2)
 
         g = PictureBox1.CreateGraphics
         g.DrawLine(graticulPen, 0, 150, PictureBox1.Width, 150)
         g.DrawRectangle(pen:=graticulPen, x:=2, y:=1, width:=3000, height:=300)
 
-        For r As Double = 0 To 1600
-            y = Math.Sin(r / 300 * 2 * Math.PI) * 150 + 150
+        For r As Double = 0 To 2000
+            y = Math.Sin(r / 175 * 2 * Math.PI) * 150 + 150
             x = r
             g.DrawLine(sinWavePen, CType(x, Single), CType(y, Single), CType(x, Single) + 1, CType(y, Single))
 
-            y = Math.Cos(r / 300 * 2 * Math.PI) * 150 + 150
+            y = Math.Cos(r / 175 * 2 * Math.PI) * 150 + 150
             x = r
             g.DrawLine(cosWavePen, CType(x, Single), CType(y, Single), CType(x, Single) + 1, CType(y, Single))
 
-            T = Math.Tan(r / 300 * 2 * Math.PI) * 150 + 150
-            L = Math.Tan(T)
-            y = Math.Sin(T) / Math.Cos(T)
+
+            y = Math.Tan(r / 175 * 2 * Math.PI) * 150 + 150
             x = r
             g.DrawLine(blackPen, CType(x, Single), CType(y, Single), CType(x, Single) + 1, CType(y, Single))
         Next
