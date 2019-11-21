@@ -32,12 +32,12 @@ Partial Class DiceMachine
         Me.DiceSum.ItemHeight = 16
         Me.DiceSum.Location = New System.Drawing.Point(35, 32)
         Me.DiceSum.Name = "DiceSum"
-        Me.DiceSum.Size = New System.Drawing.Size(210, 356)
+        Me.DiceSum.Size = New System.Drawing.Size(929, 260)
         Me.DiceSum.TabIndex = 0
         '
         'DiceButton
         '
-        Me.DiceButton.Location = New System.Drawing.Point(278, 295)
+        Me.DiceButton.Location = New System.Drawing.Point(286, 336)
         Me.DiceButton.Name = "DiceButton"
         Me.DiceButton.Size = New System.Drawing.Size(263, 92)
         Me.DiceButton.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class DiceMachine
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(559, 402)
+        Me.ClientSize = New System.Drawing.Size(976, 440)
         Me.Controls.Add(Me.DiceButton)
         Me.Controls.Add(Me.DiceSum)
         Me.Name = "DiceMachine"
