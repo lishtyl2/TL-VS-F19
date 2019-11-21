@@ -46,9 +46,10 @@ Public Class GraphicsForm
         Dim sinWavePen As New Pen(Color.OrangeRed, 2)
         Dim cosWavePen As New Pen(Color.Yellow, 2)
         Dim T As Double
+        Dim L As Double
+
         g = PictureBox1.CreateGraphics
         g.DrawLine(graticulPen, 0, 150, PictureBox1.Width, 150)
-        'g.DrawLine(blackPen, 0, 1, PictureBox1.Width, 1)
         g.DrawRectangle(pen:=graticulPen, x:=2, y:=1, width:=3000, height:=300)
 
         For r As Double = 0 To 1600
@@ -61,7 +62,8 @@ Public Class GraphicsForm
             g.DrawLine(cosWavePen, CType(x, Single), CType(y, Single), CType(x, Single) + 1, CType(y, Single))
 
             T = Math.Tan(r / 300 * 2 * Math.PI) * 150 + 150
-            y = Math.Cos(T) / Math.Sin(T)
+            L = Math.Tan(T)
+            y = Math.Sin(T) / Math.Cos(T)
             x = r
             g.DrawLine(blackPen, CType(x, Single), CType(y, Single), CType(x, Single) + 1, CType(y, Single))
         Next
