@@ -26,7 +26,7 @@ Partial Class GraphicsForm
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ColorPickerButton = New System.Windows.Forms.Button()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.ExitButton = New System.Windows.Forms.Button()
+        Me.SineWaveButton = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -41,7 +41,7 @@ Partial Class GraphicsForm
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(780, 451)
+        Me.PictureBox1.Size = New System.Drawing.Size(780, 392)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -49,7 +49,7 @@ Partial Class GraphicsForm
         'ClearButton
         '
         Me.ClearButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.ClearButton.Location = New System.Drawing.Point(13, 483)
+        Me.ClearButton.Location = New System.Drawing.Point(13, 424)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(243, 96)
@@ -60,7 +60,7 @@ Partial Class GraphicsForm
         'ColorPickerButton
         '
         Me.ColorPickerButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.ColorPickerButton.Location = New System.Drawing.Point(268, 483)
+        Me.ColorPickerButton.Location = New System.Drawing.Point(268, 424)
         Me.ColorPickerButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ColorPickerButton.Name = "ColorPickerButton"
         Me.ColorPickerButton.Size = New System.Drawing.Size(243, 96)
@@ -68,16 +68,16 @@ Partial Class GraphicsForm
         Me.ColorPickerButton.Text = "&Pen Color"
         Me.ColorPickerButton.UseVisualStyleBackColor = True
         '
-        'ExitButton
+        'SineWaveButton
         '
-        Me.ExitButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ExitButton.Location = New System.Drawing.Point(524, 483)
-        Me.ExitButton.Margin = New System.Windows.Forms.Padding(4)
-        Me.ExitButton.Name = "ExitButton"
-        Me.ExitButton.Size = New System.Drawing.Size(243, 96)
-        Me.ExitButton.TabIndex = 4
-        Me.ExitButton.Text = "E&xit"
-        Me.ExitButton.UseVisualStyleBackColor = True
+        Me.SineWaveButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.SineWaveButton.Location = New System.Drawing.Point(524, 424)
+        Me.SineWaveButton.Margin = New System.Windows.Forms.Padding(4)
+        Me.SineWaveButton.Name = "SineWaveButton"
+        Me.SineWaveButton.Size = New System.Drawing.Size(243, 96)
+        Me.SineWaveButton.TabIndex = 4
+        Me.SineWaveButton.Text = "Draw Waves"
+        Me.SineWaveButton.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -93,9 +93,9 @@ Partial Class GraphicsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(780, 592)
+        Me.ClientSize = New System.Drawing.Size(780, 533)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ExitButton)
+        Me.Controls.Add(Me.SineWaveButton)
         Me.Controls.Add(Me.ColorPickerButton)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.PictureBox1)
@@ -113,7 +113,7 @@ Partial Class GraphicsForm
     Friend WithEvents ClearButton As Button
     Friend WithEvents ColorPickerButton As Button
     Friend WithEvents ColorDialog1 As ColorDialog
-    Friend WithEvents ExitButton As Button
+    Friend WithEvents SineWaveButton As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
 End Class

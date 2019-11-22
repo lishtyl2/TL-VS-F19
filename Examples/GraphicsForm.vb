@@ -2,7 +2,7 @@
 'RCET0265
 'Etch A Sketch
 'ASG 13 - 1
-https://github.com/lishtyl2/TL-VS-F19/tree/master/Assignments
+'https://github.com/lishtyl2/TL-VS-F19/tree/master/Assignments
 
 Public Class GraphicsForm
 
@@ -13,10 +13,10 @@ Public Class GraphicsForm
         Dim blackPen As New Pen(newcolor, 3)
         Static x1, y1 As Single
         If x1 = 0 And y1 = 0 Then x1 = e.X : y1 = e.Y : newcolor = Color.Cyan
-        If e.Button.ToString = "Right" Then
+        If e.Button.ToString = "Left" Then
             graph.DrawLine(blackPen, x1, y1, e.X, e.Y)
         End If
-        If e.Button.ToString = "Left" Then
+        If e.Button.ToString = "Right" Then
             graph.DrawLine(blackPen, x1, y1, e.X, e.Y)
         End If
         'Display mouse events in label
@@ -41,7 +41,7 @@ Public Class GraphicsForm
         newcolor = ColorDialog1.Color
     End Sub
 
-    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
+    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles SineWaveButton.Click
         Dim x As Double
         Dim y As Double
         Dim blackPen As New Pen(Color.Black, 3)
@@ -49,7 +49,8 @@ Public Class GraphicsForm
         Dim graticulPen As New Pen(Color.ForestGreen, 3)
         Dim sinWavePen As New Pen(Color.OrangeRed, 2)
         Dim cosWavePen As New Pen(Color.MediumPurple, 2)
-
+        Dim graph As Graphics = PictureBox1.CreateGraphics
+        graph.Clear(Color.LightGray)
         g = PictureBox1.CreateGraphics
         g.DrawLine(graticulPen, 0, 150, PictureBox1.Width, 150)
         g.DrawRectangle(pen:=graticulPen, x:=2, y:=1, width:=3000, height:=300)
@@ -70,5 +71,4 @@ Public Class GraphicsForm
         Next
 
     End Sub
-
 End Class
