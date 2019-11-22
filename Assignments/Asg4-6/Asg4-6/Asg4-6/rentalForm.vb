@@ -7,7 +7,6 @@
 Option Strict On
 Option Explicit On
 Public Class rentalForm
-
     Dim cost As Double = 0
     Dim miles As Double
     Dim milesTotal As Double
@@ -28,6 +27,16 @@ Public Class rentalForm
     Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles clearButton.Click
         ClearAllFields()
     End Sub
+    Private Sub ClearTextBoxes()
+        nameTextBox.Clear()
+        addressTextBox.Clear()
+        cityTextBox.Clear()
+        stateTextBox.Clear()
+        zipCodeTextBox.Clear()
+        beginOdometerTextBox.Clear()
+        endOdometerTextBox.Clear()
+        daysTextBox.Clear()
+    End Sub
     Private Sub ClearAllFields()
         nameTextBox.Clear()
         addressTextBox.Clear()
@@ -42,7 +51,6 @@ Public Class rentalForm
     Private Sub checkForDiscounts()
         Dim discountMultiplier As Double = 0
         Dim howMuchDiscount As Double = 0
-
         If aaaCheckBox.Checked Then
             discountMultiplier += 0.05
         End If
@@ -53,18 +61,17 @@ Public Class rentalForm
         discounts += howMuchDiscount
         discountLabel.Text = howMuchDiscount.ToString("C")
         cost = (1 - discountMultiplier) * cost
-
     End Sub
     Private Sub CheckTextBoxes()
         Dim popUp As String
         Dim validateZipCode As Boolean = True
-
         popUp = ""
         validateValues = False
         Try
             days = Integer.Parse(daysTextBox.Text)
             If days > 45 Or days < 1 Then
                 MessageBox.Show("Please enter a valid number of days, 0-45")
+                ClearTextBoxes()
                 daysTextBox.Select()
             End If
         Catch ex As Exception
@@ -75,53 +82,42 @@ Public Class rentalForm
             MessageBox.Show("Please enter valid odometer values")
             beginOdometerTextBox.Select()
         End Try
-
         Try
             Integer.Parse(zipCodeTextBox.Text)
         Catch ex As Exception
             validateZipCode = False
         End Try
-
         If zipCodeTextBox.Text.Length() <> 5 Or validateZipCode = False Then
             popUp = "Please enter the correct zip code." & vbNewLine & popUp
             zipCodeTextBox.Select()
         End If
-
         If stateTextBox.Text.Length() < 2 Then
             popUp = "Please enter the state abbreviation."
             stateTextBox.Select()
         End If
-
         If cityTextBox.Text.Length() = 0 Then
             popUp = "Please enter your city." & vbNewLine & popUp
             cityTextBox.Select()
         End If
-
         If addressTextBox.Text.Length() = 0 Then
             popUp = "Please enter the address." & vbNewLine & popUp
             addressTextBox.Select()
         End If
-
         If nameTextBox.Text.Length() = 0 Then
             popUp = "Please enter the customer name." & vbNewLine & popUp
             nameTextBox.Select()
         End If
-
         If popUp <> "" Then
             MessageBox.Show(popUp)
         Else validateValues = True
-
         End If
     End Sub
-
     Private Sub calculateButton_Click(sender As Object, e As EventArgs) Handles calculateButton.Click
         Dim chargeForDays As Integer
         Dim costLocal As Double
         CheckTextBoxes()
-
         If validateValues Then
             If miles > 0 Then
-
             Else
                 MessageBox.Show("Please enter a valid odometer reading, ending odometer reading must be greater than the beginning reading.")
                 beginOdometerTextBox.Select()
@@ -129,16 +125,13 @@ Public Class rentalForm
             If kilometersRadioButton.Checked = True Then
                 miles *= 0.62
             End If
-
             milesDrivenLabel.Text = Convert.ToString(miles)
             milesTotal += miles
-
             If miles >= 201 And miles <= 500 Then
                 cost = (miles - 200) * 0.12
             ElseIf miles > 500 Then
                 cost = (miles - 500) * 0.1 + (300 * 0.12)
             End If
-
             milesCharge += cost
             mileChargeLabel.Text = cost.ToString("C")
             chargeForDays = days * 15
@@ -153,8 +146,15 @@ Public Class rentalForm
             youOweLabel.Text = cost.ToString("C")
         End If
         calculateSelected()
+        nameTextBox.Clear()
+        addressTextBox.Clear()
+        cityTextBox.Clear()
+        stateTextBox.Clear()
+        zipCodeTextBox.Clear()
+        beginOdometerTextBox.Clear()
+        endOdometerTextBox.Clear()
+        daysTextBox.Clear()
     End Sub
-
     Private Sub summaryButton_Click(sender As Object, e As EventArgs) Handles summaryButton.Click
         Dim summaryTotal As String
         summaryTotal = "Distance Driven = " & milesTotal & vbNewLine &

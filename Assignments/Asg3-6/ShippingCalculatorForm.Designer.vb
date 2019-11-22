@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ShippingCalculator
+Partial Class ShippingFormCalculator
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,49 +23,49 @@ Partial Class ShippingCalculator
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.InputGroupBox = New System.Windows.Forms.GroupBox()
+        Me.OuncesLabel = New System.Windows.Forms.Label()
         Me.OuncesTextBox = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PoundsLabel = New System.Windows.Forms.Label()
+        Me.ShippingWeightLabel = New System.Windows.Forms.Label()
         Me.PoundsTextBox = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.IDCodeLabel = New System.Windows.Forms.Label()
         Me.IDCodeTextBox = New System.Windows.Forms.TextBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.OutputGroupBox = New System.Windows.Forms.GroupBox()
+        Me.ShippingCostLabel = New System.Windows.Forms.Label()
         Me.ShippingCostTextBox = New System.Windows.Forms.TextBox()
         Me.CalculateButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
+        Me.InputGroupBox.SuspendLayout()
+        Me.OutputGroupBox.SuspendLayout()
         Me.SuspendLayout()
         '
-        'GroupBox1
+        'InputGroupBox
         '
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.OuncesTextBox)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.PoundsTextBox)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.IDCodeTextBox)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 38)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(360, 296)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
+        Me.InputGroupBox.Controls.Add(Me.OuncesLabel)
+        Me.InputGroupBox.Controls.Add(Me.OuncesTextBox)
+        Me.InputGroupBox.Controls.Add(Me.PoundsLabel)
+        Me.InputGroupBox.Controls.Add(Me.ShippingWeightLabel)
+        Me.InputGroupBox.Controls.Add(Me.PoundsTextBox)
+        Me.InputGroupBox.Controls.Add(Me.IDCodeLabel)
+        Me.InputGroupBox.Controls.Add(Me.IDCodeTextBox)
+        Me.InputGroupBox.Location = New System.Drawing.Point(12, 38)
+        Me.InputGroupBox.Name = "InputGroupBox"
+        Me.InputGroupBox.Size = New System.Drawing.Size(360, 296)
+        Me.InputGroupBox.TabIndex = 0
+        Me.InputGroupBox.TabStop = False
         '
-        'Label4
+        'OuncesLabel
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(284, 250)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(27, 17)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = ".oz"
-        Me.ToolTip1.SetToolTip(Me.Label4, "How many ounces does it weigh? ")
+        Me.OuncesLabel.AutoSize = True
+        Me.OuncesLabel.Location = New System.Drawing.Point(284, 250)
+        Me.OuncesLabel.Name = "OuncesLabel"
+        Me.OuncesLabel.Size = New System.Drawing.Size(27, 17)
+        Me.OuncesLabel.TabIndex = 6
+        Me.OuncesLabel.Text = ".oz"
+        Me.ToolTip1.SetToolTip(Me.OuncesLabel, "How many ounces does it weigh? ")
         '
         'OuncesTextBox
         '
@@ -75,25 +75,25 @@ Partial Class ShippingCalculator
         Me.OuncesTextBox.TabIndex = 5
         Me.ToolTip1.SetToolTip(Me.OuncesTextBox, "How many ounces does it weigh? ")
         '
-        'Label3
+        'PoundsLabel
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(113, 248)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(30, 17)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = ".lbs"
-        Me.ToolTip1.SetToolTip(Me.Label3, "How many pounds does it weigh?")
+        Me.PoundsLabel.AutoSize = True
+        Me.PoundsLabel.Location = New System.Drawing.Point(113, 248)
+        Me.PoundsLabel.Name = "PoundsLabel"
+        Me.PoundsLabel.Size = New System.Drawing.Size(30, 17)
+        Me.PoundsLabel.TabIndex = 4
+        Me.PoundsLabel.Text = ".lbs"
+        Me.ToolTip1.SetToolTip(Me.PoundsLabel, "How many pounds does it weigh?")
         '
-        'Label2
+        'ShippingWeightLabel
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(37, 217)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(261, 25)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Package Shipping Weight"
+        Me.ShippingWeightLabel.AutoSize = True
+        Me.ShippingWeightLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ShippingWeightLabel.Location = New System.Drawing.Point(37, 217)
+        Me.ShippingWeightLabel.Name = "ShippingWeightLabel"
+        Me.ShippingWeightLabel.Size = New System.Drawing.Size(261, 25)
+        Me.ShippingWeightLabel.TabIndex = 3
+        Me.ShippingWeightLabel.Text = "Package Shipping Weight"
         '
         'PoundsTextBox
         '
@@ -103,16 +103,16 @@ Partial Class ShippingCalculator
         Me.PoundsTextBox.TabIndex = 2
         Me.ToolTip1.SetToolTip(Me.PoundsTextBox, "How many pounds does it weigh?")
         '
-        'Label1
+        'IDCodeLabel
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(6, 44)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(139, 20)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "6 Digit ID Code"
-        Me.ToolTip1.SetToolTip(Me.Label1, "Please Enter your 6 Digit ID Code here. ")
+        Me.IDCodeLabel.AutoSize = True
+        Me.IDCodeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IDCodeLabel.Location = New System.Drawing.Point(6, 44)
+        Me.IDCodeLabel.Name = "IDCodeLabel"
+        Me.IDCodeLabel.Size = New System.Drawing.Size(139, 20)
+        Me.IDCodeLabel.TabIndex = 1
+        Me.IDCodeLabel.Text = "6 Digit ID Code"
+        Me.ToolTip1.SetToolTip(Me.IDCodeLabel, "Please Enter your 6 Digit ID Code here. ")
         '
         'IDCodeTextBox
         '
@@ -123,25 +123,25 @@ Partial Class ShippingCalculator
         Me.IDCodeTextBox.TabIndex = 0
         Me.ToolTip1.SetToolTip(Me.IDCodeTextBox, "Please Enter your 6 Digit ID Code here. ")
         '
-        'GroupBox2
+        'OutputGroupBox
         '
-        Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Controls.Add(Me.ShippingCostTextBox)
-        Me.GroupBox2.Location = New System.Drawing.Point(409, 38)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(320, 296)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
+        Me.OutputGroupBox.Controls.Add(Me.ShippingCostLabel)
+        Me.OutputGroupBox.Controls.Add(Me.ShippingCostTextBox)
+        Me.OutputGroupBox.Location = New System.Drawing.Point(409, 38)
+        Me.OutputGroupBox.Name = "OutputGroupBox"
+        Me.OutputGroupBox.Size = New System.Drawing.Size(320, 296)
+        Me.OutputGroupBox.TabIndex = 1
+        Me.OutputGroupBox.TabStop = False
         '
-        'Label5
+        'ShippingCostLabel
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(6, 210)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(148, 25)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Shipping Cost"
+        Me.ShippingCostLabel.AutoSize = True
+        Me.ShippingCostLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ShippingCostLabel.Location = New System.Drawing.Point(6, 210)
+        Me.ShippingCostLabel.Name = "ShippingCostLabel"
+        Me.ShippingCostLabel.Size = New System.Drawing.Size(148, 25)
+        Me.ShippingCostLabel.TabIndex = 1
+        Me.ShippingCostLabel.Text = "Shipping Cost"
         '
         'ShippingCostTextBox
         '
@@ -149,6 +149,7 @@ Partial Class ShippingCalculator
         Me.ShippingCostTextBox.Name = "ShippingCostTextBox"
         Me.ShippingCostTextBox.Size = New System.Drawing.Size(218, 22)
         Me.ShippingCostTextBox.TabIndex = 0
+        Me.ShippingCostTextBox.TabStop = False
         '
         'CalculateButton
         '
@@ -183,7 +184,7 @@ Partial Class ShippingCalculator
         Me.ToolTip1.SetToolTip(Me.ExitButton, "Well, I'm done now, click here to exit. ")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
-        'ShippingCalculator
+        'ShippingFormCalculator
         '
         Me.AcceptButton = Me.CalculateButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -193,28 +194,28 @@ Partial Class ShippingCalculator
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.CalculateButton)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "ShippingCalculator"
+        Me.Controls.Add(Me.OutputGroupBox)
+        Me.Controls.Add(Me.InputGroupBox)
+        Me.Name = "ShippingFormCalculator"
         Me.Text = "Shipping Calculator"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
+        Me.InputGroupBox.ResumeLayout(False)
+        Me.InputGroupBox.PerformLayout()
+        Me.OutputGroupBox.ResumeLayout(False)
+        Me.OutputGroupBox.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Label4 As Label
+    Friend WithEvents InputGroupBox As GroupBox
+    Friend WithEvents OuncesLabel As Label
     Friend WithEvents OuncesTextBox As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents PoundsLabel As Label
+    Friend WithEvents ShippingWeightLabel As Label
     Friend WithEvents PoundsTextBox As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents IDCodeLabel As Label
     Friend WithEvents IDCodeTextBox As TextBox
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Label5 As Label
+    Friend WithEvents OutputGroupBox As GroupBox
+    Friend WithEvents ShippingCostLabel As Label
     Friend WithEvents ShippingCostTextBox As TextBox
     Friend WithEvents CalculateButton As Button
     Friend WithEvents ClearButton As Button

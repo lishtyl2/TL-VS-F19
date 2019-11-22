@@ -5,7 +5,6 @@ C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\bin\Debug\
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4-1.vbprojAssemblyReference.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4_1.Resources.resources
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4-1.vbproj.GenerateResource.cache
-C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4-1.vbproj.CoreCompileInputs.cache
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4-1.exe
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4-1.xml
 C:\Users\lisht\OneDrive\Documents\GitHub\TL-VS-F19\Assignments\Asg4-1\obj\Debug\Asg4-1.pdb

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class InventoryCalculator
+Partial Class InventoryCalculatorForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -181,6 +181,7 @@ Partial Class InventoryCalculator
         '
         'ExitButton
         '
+        Me.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.ExitButton.Location = New System.Drawing.Point(521, 371)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(122, 67)
@@ -191,8 +192,10 @@ Partial Class InventoryCalculator
         '
         'InventoryCalculator
         '
+        Me.AcceptButton = Me.CalculateButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.ExitButton
         Me.ClientSize = New System.Drawing.Size(684, 450)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.ClearButton)

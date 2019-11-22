@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ShippingCalculator.vb">
+    <Compile Include="ShippingCalculatorForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShippingCalculator.Designer.vb">
-      <DependentUpon>ShippingCalculator.vb</DependentUpon>
+    <Compile Include="ShippingCalculatorForm.Designer.vb">
+      <DependentUpon>ShippingCalculatorForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ShippingCalculator.resx">
-      <DependentUpon>ShippingCalculator.vb</DependentUpon>
+    <EmbeddedResource Include="ShippingCalculatorForm.resx">
+      <DependentUpon>ShippingCalculatorForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

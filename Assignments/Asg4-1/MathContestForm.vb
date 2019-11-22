@@ -4,8 +4,7 @@
 'https:///github.com/lishtyl2/TL-VS-F19/tree/master/Assignments
 Option Strict On
 Option Explicit On
-
-Public Class MathContest
+Public Class MathContestForm
     Dim age As Integer
     Dim grade As Integer
     Dim firstNumber As Integer
@@ -13,12 +12,10 @@ Public Class MathContest
     Dim answer As Integer
     Dim totalRight As Integer
     Dim totalWrong As Integer
-    Dim overall As Double
-
+    Dim overAll As Double
     Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
         ClearAllFields()
     End Sub
-
     Sub ClearAllFields()
         NameTextBox.Clear()
         GradeComboBox.Text = ""
@@ -41,7 +38,6 @@ Public Class MathContest
         SummaryButton.Enabled = False
         ExitButton.Enabled = True
     End Sub
-
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
     End Sub
@@ -50,13 +46,12 @@ Public Class MathContest
         SubtractRadioButton.Enabled = True
         MultiplyRadioButton.Enabled = True
         DivideRadioButton.Enabled = True
-
     End Sub
     Private Sub EnableAnswer()
-        AddRadioButton.Enabled = False
-        SubtractRadioButton.Enabled = False
-        MultiplyRadioButton.Enabled = False
-        DivideRadioButton.Enabled = False
+        AddRadioButton.Enabled = True
+        SubtractRadioButton.Enabled = True
+        MultiplyRadioButton.Enabled = True
+        DivideRadioButton.Enabled = True
         NameTextBox.Enabled = False
         AgeComboBox.Enabled = False
         GradeComboBox.Enabled = False
@@ -83,7 +78,6 @@ Public Class MathContest
             GradeComboBox.Enabled = True
         End If
     End Sub
-
     Private Sub SubmitButton_Click(sender As Object, e As EventArgs) Handles SubmitButton.Click
         Select Case True
 
@@ -97,12 +91,11 @@ Public Class MathContest
                 answer = firstNumber \ secondNumber
         End Select
         Try
-
-            overall = Double.Parse(AnswerTextBox.Text)
+            overAll = Double.Parse(AnswerTextBox.Text)
         Catch ex As Exception
-            overall = 0
+            overAll = 0
         End Try
-        If answer = overall Then
+        If answer = overAll Then
             MessageBox.Show("Woohoo!!")
             totalRight += 1
         Else
@@ -112,33 +105,25 @@ Public Class MathContest
         EnableAnswer()
         GenerateNumber()
         AnswerTextBox.Clear()
-
     End Sub
-
     Private Sub GradeComboBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GradeComboBox.SelectedIndexChanged
         EnableQuestion()
     End Sub
-
     Private Sub AddRadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles AddRadioButton.CheckedChanged
         EnableAnswer()
     End Sub
-
     Private Sub SubtractRadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles SubtractRadioButton.CheckedChanged
         EnableAnswer()
     End Sub
-
     Private Sub MultiplyRadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles MultiplyRadioButton.CheckedChanged
         EnableAnswer()
     End Sub
-
     Private Sub DivideRadioButton_CheckedChanged(sender As Object, e As EventArgs) Handles DivideRadioButton.CheckedChanged
         EnableAnswer()
     End Sub
-
     Private Sub MathContest_Load(sender As Object, e As EventArgs) Handles Me.Load
         DisableFields()
     End Sub
-
     Private Sub SummaryButton_Click(sender As Object, e As EventArgs) Handles SummaryButton.Click
         MessageBox.Show(NameTextBox.Text & " had " & totalRight & " correct, and " & totalWrong _
                         & " incorrect.")

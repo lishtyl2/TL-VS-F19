@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathContest.vb">
+    <Compile Include="MathContestForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MathContest.Designer.vb">
-      <DependentUpon>MathContest.vb</DependentUpon>
+    <Compile Include="MathContestForm.Designer.vb">
+      <DependentUpon>MathContestForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MathContest.resx">
-      <DependentUpon>MathContest.vb</DependentUpon>
+    <EmbeddedResource Include="MathContestForm.resx">
+      <DependentUpon>MathContestForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

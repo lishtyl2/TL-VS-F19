@@ -1,6 +1,9 @@
-﻿Option Strict On
+﻿'Tyler Lish
+'RCET0265
+'Asg7-1
+'https:///github.com/lishtyl2/TL-VS-F19/tree/master/Assignments
+Option Strict On
 Option Explicit On
-
 Public Class StocksForm
     Dim summary As New List(Of String)
     Dim stopSummary As New List(Of String)
@@ -20,7 +23,6 @@ Public Class StocksForm
     Private Sub CalculateButton_Click(sender As Object, e As EventArgs) Handles CalculateButton.Click
         calculate()
     End Sub
-
     Private Sub CalculateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculateToolStripMenuItem.Click
         calculate()
     End Sub
@@ -34,9 +36,8 @@ Public Class StocksForm
         ' this will allign the columns.
         Return firstColumn.PadRight(columnWidth) & secondColumn.PadRight(columnWidth) &
             thirdColumn.PadRight(columnWidth) & fourthColumn.PadRight(columnWidth)
-
     End Function
-    Private Sub calculate()
+    Private Sub Calculate()
         'Validates code and returns messagebox with any fields that are invalid, selecting the first in the tab order.
         Dim errorMessage As String = ""
         Dim firstDayChange As Double
@@ -97,8 +98,6 @@ Public Class StocksForm
             clearData()
         End If
     End Sub
-
-
     Private Function HoldBuySell(tuesdayChange As Double, wednesdayChange As Double) As Object
         Dim result As String
         If tuesdayChange > 0 And wednesdayChange > tuesdayChange Then
@@ -111,5 +110,4 @@ Public Class StocksForm
 
         Return result
     End Function
-
 End Class
