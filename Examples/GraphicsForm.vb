@@ -50,6 +50,8 @@ Public Class GraphicsForm
         Dim sinWavePen As New Pen(Color.OrangeRed, 2)
         Dim cosWavePen As New Pen(Color.MediumPurple, 2)
         Dim graph As Graphics = PictureBox1.CreateGraphics
+        Dim padding As Integer
+
         graph.Clear(Color.LightGray)
         g = PictureBox1.CreateGraphics
         g.DrawLine(graticulPen, 0, 150, PictureBox1.Width, 150)
