@@ -87,10 +87,7 @@
     'Also only have one return statement at the end
     Private Function ShortAndSweet(ByVal numberFromZeroToFifteen As Integer) As String
         ShortAndSweet = ""
-        Dim numbers(,) As Object = {{0, "Zero"}, {1, "One"}, {2, "Two"}, {3, "Three"}, {4, "Four"}, {5, "Five"},
-            {6, "Six"}, {7, "Seven"}, {8, "Eight"}, {9, "Nine"}, {10, "Ten"}, {11, "Eleven"}, {12, "Twelve"},
-            {13, "Thirteen"}, {14, "Fourteen"}, {15, "Fifteen"}}
-        Dim i As Integer
+        Dim numbers(,) As Object = {{0, "Zero"}, {1, "One"}, {2, "Two"}, {3, "Three"}, {4, "Four"}, {5, "Five"}, {6, "Six"}, {7, "Seven"}, {8, "Eight"}, {9, "Nine"}, {10, "Ten"}, {11, "Eleven"}, {12, "Twelve"}, {13, "Thirteen"}, {14, "Fourteen"}, {15, "Fifteen"}}
         If numberFromZeroToFifteen < 0 Then
             Return "Your number is: Too Low"
         ElseIf numberFromZeroToFifteen > 15 Then
